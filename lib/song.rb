@@ -9,9 +9,7 @@ class Song
   end
 
   def self.create(title, band)
-    
-
-    Song.new(title, band).tap {|songs| song.save}
+    Song.new(title, band).tap {|song| song.save}
   end
   
   def save
